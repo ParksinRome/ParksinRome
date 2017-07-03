@@ -1,18 +1,25 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="it-IT">
 
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rome</title>
-    <meta neme="keywords" content="rome,italy,parks,green,picnic,bicycle,walk,villa,parco,borghese,vatican,,,,,,," />
-    <meta name="description" content="This is a tourist guide site that lists the best parks in Rome, Italy, to visit during all the year. Most of them have free entrance, and in some of them you can go by bicycle and also have a picnic. " />
+    <meta name="keywords" content="roma,italia,parchi,verde,picnic,bicicletta,bici,passeggiata,villa,parco,borghese,vaticano,lazio," />
+    <meta name="description" content="Questa è una guida turistica per i migliori parchi a Roma che si possono visitare durante tutto l'anno. Nella maggior parte di loro ci si può andare in bicicletta e fare anche un picnic." />
+    <meta name="author" content="Adolfini Asmani">
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="http://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src=".js"></script>
+    <style>
+        .align-left {
+            text-align: left;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -20,22 +27,22 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-black w3-wide w3-padding w3-card-2">
-            <a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-hover-red"><b>Italy</b> Parks of Rome</a>
+            <a href="#home" class="w3-bar-item w3-button w3-hover-opacity w3-hover-red"><b>Italy</b> Parchi di Roma</a>
             <!-- Float links to the right. Hide them on small screens -->
             <div class="w3-right w3-hide-small">
-                <a href="#parks" class="w3-bar-item w3-button w3-hover-opacity w3-hover-red">Parks</a>
+                <a href="#parks" class="w3-bar-item w3-button w3-hover-opacity w3-hover-red">Parchi</a>
             </div>
             <div class="w3-right w3-hide-small">
-                <a href="#map" class="w3-bar-item w3-button w3-hover-opacity w3-hover-red">Map</a>
+                <a href="#map" class="w3-bar-item w3-button w3-hover-opacity w3-hover-red">Mappa</a>
             </div>
         </div>
     </div>
 
     <!-- Header -->
     <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-        <img class="w3-image" src="Rome-italy-2.jpg" alt="Rome Gianicolo" width="1500" height="800">
+        <img class="w3-image" src="Rome-italy-2.jpg" alt="Roma Gianicolo" width="1500" height="800">
         <div class="w3-display-middle w3-margin-top w3-center">
-            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Parks of Rome</b></span> <span class="w3-hide-xlarge w3-text-black"></span></h1>
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Parchi di Roma</b></span> <span class="w3-hide-xlarge w3-text-black"></span></h1>
         </div>
     </header>
 
@@ -44,7 +51,7 @@
 
         <!-- Park Section -->
         <div class="w3-container w3-padding-32" id="parks">
-            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Parks of Rome</h3>
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Parchi di Roma</h3>
         </div>
 
         <div class="w3-row-padding">
@@ -52,12 +59,59 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Villa Borghese</div>
                     <img src="villa-borghese.jpg" alt="villa borghese" style="cursor:pointer;width:99%" onclick="document.getElementById('id01').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id01" class="w3-modal w3-animate-opacity">
+                    <div id="id01" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Villa Borghese</h1>
+                                <img class="modal-content" src="villa-borghese.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    <p>Villa Borghese è un grande parco nella città di Roma che comprende sistemazioni a verde di diverso tipo, dal giardino all'italiana alle ampie aree di stile inglese, edifici, piccoli fabbricati, fontane e laghetti.
+                                        <br> È il quarto più grande parco pubblico a Roma (circa 80 ettari), dopo valle della Caffarella, villa Doria Pamphilj e villa Ada e si estende in gran parte sul quartiere Pinciano e in piccola parte sul rione Campo Marzio, divisi dalle Mura aureliane.</p>
+                                    <br><b>All'interno del parco sono situati:</b>
+                                    <ul>
+                                        <li>la Galleria Borghese</li>
+                                        <li>il Museo Canonica</li>
+                                        <li>il Museo nazionale etrusco di Villa Giulia</li>
+                                        <li>la Galleria nazionale d'arte moderna e contemporanea</li>
+                                        <li>la Casa del Cinema</li>
+                                        <li>il Museo civico di zoologia</li>
+                                        <li>la Casina di Raffaello</li>
+                                        <li>il Silvano Toti Globe Theatre</li>
+                                        <li>il Bioparco</li>
+                                    </ul>
+                                    <b>Dove si trova:</b>
+                                    <br> Municipio II, quartiere Pinciano
+                                    <br><br>
+                                    <b>Epoca:</b>
+                                    <br> XVII - XX secolo
+                                    <br><br><b>Estensione:</b>
+                                    <br> 80 ettari
+                                    <br><br>
+                                    <b>Ingressi:</b>
+                                    <br>Il grande parco contiene diversi edifici ed ha 9 ingressi: tra i più frequentati quello di porta Pinciana, quello dalla scalinata di Trinità dei Monti, quello dalle rampe del Pincio a piazza del Popolo e l'ingresso monumentale di piazzale Flaminio. Il "giardino del Pincio" (corrispondente al colle Pincio), nella parte sud del parco, offre un noto panorama su Roma.
+                                    <ul>
+                                        <li>Via Aldrovandi</li>
+                                        <li>Via Raimondi (2 ingressi)</li>
+                                        <li>Via Pinciana (2 ingressi)</li>
+                                        <li>Piazzale San Paolo del Brasile</li>
+                                        <li>Piazzale Flaminio, Piazzale Cervantes</li>
+                                        <li>Piazzale Pablo Picasso (via di Valle Giulia)Metropolitana di Roma</li>
+                                    </ul>
+                                    <b>Collegamenti:</b>
+                                    <br>
+                                    <ul>
+                                        <li>metro A stazioni Flaminio e Spagna</li>
+                                        <li>tram 2 capolinea Flaminio</li>
+                                        <li>tram 3 capolinea Valle Giulia e dalle fermate Galleria Arte Moderna, Aldrovandi e Bioparco</li>
+                                        <li>
+                                            tram 9 fermate Museo Etrusco Villa Giulia, Galleria Arte Moderna, Aldrovandi e Bioparco
+                                        </li>
+                                        <li>dalla stazione Piazzale Flaminio.</li>
+                                    </ul>
+                                    <a href="https://it.wikipedia.org/wiki/Villa_Borghese" target="_blank"> Wiki </a>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.06844733415!2d12.483019815909998!3d41.91288727921953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61021d3c538f%3A0xeb3d7c3dff838e44!2sVilla+Borghese!5e0!3m2!1sit!2sit!4v1498671150857" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -65,14 +119,36 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Villa Ada</div>
+                    <div class="w3-display-topleft w3-black w3-padding">Villa Ada Savoia</div>
                     <img src="Villa-Ada.jpg" alt="villa ada" style="cursor:pointer;width:99%" onclick="document.getElementById('id02').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id02" class="w3-modal w3-animate-opacity">
+                    <div id="id02" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Villa Ada Savoia</h1>
+                                <img class="modal-content" src="Villa-Ada.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    <p>Villa Ada, un parco del XVIII - XX secolo, è il secondo più grande parco pubblico di Roma (circa 160 ettari) dopo Villa Doria Pamphilj.
+                                        <br>Ospita numerosi edifici neoclassici, tra i quali la villa reale (attualmente in uso alle Legazioni diplomatiche egiziane in Italia).
+                                        <br>È collocato nella zona settentrionale della città, a nord-ovest della via Salaria, nel quartiere Parioli.
+                                        <br>All' interno, oltre alla villa reale, il parco oggi si presenta dotato di numerosi edifici neoclassici ed eclettici (quali il Tempio di Flora, la Villa Polissena, le Scuderie Reali, lo Chalet svizzero, la Torre Gotica).
+                                        <br>Interessanti anche i resti di archeologia industriale, rappresentati dai resti del rifugio antiaereo reale, un gigantesco camminamento carrabile, chiuso da porte blindate che, fino agli anni '60, ancora conteneva l'arredo originale e resti di armamento.</p>
+                                    <br><b>Orari di apertura:</b>
+                                    <br>Apertura dalle 7 al tramonto
+                                    <br><br><b>Ingressi:</b>
+                                    <ul>
+                                        <li>via Salaria 267 - 273 - 275</li>
+                                        <li>via di Ponte Salario</li>
+                                        <li>via di Monte Antenne</li>
+                                        <li>via Panama</li>
+                                    </ul>
+                                    <br><b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 63, 83, 310, 92 (via Nemorense, piazza Verbano) </li>
+                                        <li>bus 53,168 (via Panama) </li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7059.8119584733695!2d12.499570808924132!3d41.92972077440471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f614823e55e9d%3A0xafea58f3ceb8f0d7!2sVilla+Ada+Savoia!5e0!3m2!1sit!2sit!4v1498671378808" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -82,12 +158,40 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Villa Doria Pamphili</div>
                     <img src="villa-doria-pamphili.jpg" alt="villa doria pamphili" style="cursor:pointer;width:99%" onclick="document.getElementById('id03').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id03" class="w3-modal w3-animate-opacity">
+                    <div id="id03" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Villa Doria Pamphili</h1>
+                                <img class="modal-content" src="villa-doria-pamphili.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    <p>Villa Doria Pamphilj è una residenza storica del XVII XX secolo, che comprende il più grande parco pubblico urbano di Roma (circa 184 ettari), situata appena fuori dalle mura nel quartiere Gianicolense, sulle propaggini occidentali del Gianicolo, compresa tra via Aurelia Antica e via Vitellia.
+                                        <br>Al suo interno sorge il Casino del Bel Respiro o Algardi, che è sede di rappresentanza ufficiale del governo italiano.
+                                        <br>Trae origine dalla tenuta di campagna dell'omonima famiglia nobile romana, progettata da Alessandro Algardi e Giovanni Francesco Grimaldi nel Seicento, dalla fusione di diverse vigne preesistenti.
+                                        <br>Fu espropriata nel corso del Novecento, divisa in due nel 1960 per l'apertura di via Leone XIII (tratto della via Olimpica), e aperta al pubblico nel 1972.</p>
+
+                                    <br><b>Orari di apertura:</b>
+                                    <br>dalle 7.00 al tramonto
+                                    <br>
+                                    <br><b>Ingressi:</b>
+                                    <br>
+                                    <ul>
+                                        <li>via di S.Pancrazio</li>
+                                        <li>via Aurelia Antica</li>
+                                        <li>via Leone XII</li>
+                                        <li>largo M. Luther King</li>
+                                        <li>via Vitellia</li>
+                                        <li>via della Nocetta</li>
+                                    </ul>
+                                    <br><b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 710, 870 (via Vitellia, via di Porta S.Pancrazio), 31,33,180,791 via Leone XIII)</li>
+                                        <li>bus 984 (via Aurelia Antica e via Leone XIII)</li>
+                                        <li>bus 982 (via Vitellia, Via Leone XIII)</li>
+                                    </ul>
+                                    <a href="https://www.villapamphili.it/la-mappa.html">Mappa</a>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7059.8119584733695!2d12.499570808924132!3d41.92972077440471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f614823e55e9d%3A0xafea58f3ceb8f0d7!2sVilla+Ada+Savoia!5e0!3m2!1sit!2sit!4v1498671378808" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -97,12 +201,35 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Villa Torlonia </div>
                     <img src="villa-torlonia.jpg" alt="villa torlonia" style="cursor:pointer;width:99%" onclick="document.getElementById('id04').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id04" class="w3-modal w3-animate-opacity">
+                    <div id="id04" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Villa Torlonia</h1>
+                                <img class="modal-content" src="villa-torlonia.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    <p>Villa Torlonia è una villa di Roma di 14 ettari, del XIX - XX secolo, oggi pubblica, che si affaccia su via Nomentana, nel quartiere Nomentano.</p>
+                                    <br><b>All'interno del parco sono situati i musei:</b>
+                                    <ul>
+                                        <li>Casina delle Civette</li>
+                                        <li>Casino dei Principi</li>
+                                        <li>Casino Nobile</li>
+                                    </ul>
+                                    <br><b>Bar:</b> presso la Limonaia, ingresso di via Lazzaro Spallanzani
+                                    <br><br><b>Orari di apertura:</b>
+                                    <ul>
+                                        <li>Dal 1 ottobre al 31 marzo ore 7.00 - 19.00</li>
+                                        <li>Dal 1 aprile al 30 settembre ore 7.00 - 20.30</li>
+                                    </ul><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>Via Nomentana 70</li>
+                                        <li>Via Siracusa </li>
+                                        <li>Via Spallanzani </li>
+                                    </ul>
+                                    <br><b>Collegamenti:</b> metro A stazioni Bologna e Policlinico
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.7514810635503!2d12.51008664102272!3d41.91443904440984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61724089de75%3A0xbf6c6ac84350d21b!2sMusei+di+Villa+Torlonia!5e0!3m2!1sit!2sit!4v1498671550065" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -112,12 +239,29 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Villa Celimontana </div>
                     <img src="Villa-Celimontana.jpg" alt="villa celimontana" style="cursor:pointer;width:99%" onclick="document.getElementById('id05').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id05" class="w3-modal w3-animate-opacity">
+                    <div id="id05" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Villa Celimontana</h1>
+                                <img class="modal-content" src="Villa-Celimontana.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    La villa Celimontana (già villa Mattei) è un parco pubblico di Roma di 110.000 mq, del XVI-XIX secolo. <br> Fu soggetta a trasformazione in senso paesaggistico nel 1858 dall'architetto francese Pierre Charles L'Enfant (1754-1825) per iniziativa di Laura Maria Giuseppa di Bauffremont e ancora nel 1870, con interventi in stile neogotico, per l'ultimo proprietario Richard von Hoffmann. <br> La villa copre un sito di età Flavia e Traianea del quale restano cinte murarie ora coperte dai livellamenti del terreno e parzialmente visibili solo dal lato Sud. Contiene numerosi reperti di varie epoche ed origini, che ne sono oggi esposto ornamento.
+                                    <br> Fra questi, l'obelisco egizio di Ramsete II, popolarmente detto "spiedino", proveniente dalla spoliazione del Tempio del Sole a Eliopoli. <br><br>
+                                    <b>Orari di apertura:</b>dalle 7.00 al tramonto
+                                    <br><br>
+                                    <b>Ingressi:</b>
+                                    <li>via della Navicella</li>
+                                    <li>piazza SS. Giovanni e Paolo</li>
+                                    <br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 81</li>
+                                        <li>bus 673 </li>
+                                        <li>metro B Colosseo</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.421364061918!2d12.493624915909315!3d41.88379437922175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61c63bb6ee13%3A0x99e42f3dc6bbf2ee!2sVilla+Celimontana!5e0!3m2!1sit!2sit!4v1498671608250" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -127,12 +271,27 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Villa Glori </div>
                     <img src="villa-glori.jpg" alt="villa glori" style="cursor:pointer;width:99%" onclick="document.getElementById('id06').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id06" class="w3-modal w3-animate-opacity">
+                    <div id="id06" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Villa Glori</h1>
+                                <img class="modal-content" src="villa-glori.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    Villa Glori, una villa di 25 ettari del XIX-XX Secolo. Situata sulla collina che domina l’ansa del Tevere, immersa tra i due quartieri limitrofi Parioli e Flaminio, ha una configurazione particolarmente irregolare, di giardino naturale e persino un po’selvaggio, dalla parte di viale Pilsudski, e di parco idealmente progettato secondo un tracciato regolare, scandito da vialetti ombrosi, immerso nel verde mediterraneo di pini, querce, ippocastani ed ulivi, puntigliosamente allineati a filari.<br> Nel parco sono state inserite alcune installazioni di artisti contemporanei, tra cui opere di Uncini, Canevari, Castagna, Dompè, Staccioli e Kounellis. Noleggio pony entrata di viale Maresciallo Pilsudski.<br><br>
+                                    <b> Orari di apertura: </b>apertura dalle 7.00 al tramonto<br><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>piazzale del Parco della Rimembranza</li>
+                                        <li>via del Maresciallo Pilsudski</li>
+                                    </ul>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 982, 910, 53, 223, 168</li>
+                                        <li>Stazione ferroviaria Roma Nord fermata piazza Euclide</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2289100675007!2d12.477728315910415!3d41.930932279217984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60deefcf6c01%3A0x5d1f3578f14db485!2sVilla+Glori!5e0!3m2!1sit!2sit!4v1498671640011" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -142,12 +301,33 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Parco del colle oppio </div>
                     <img src="parco-colle-oppio.jpg" alt="parco del colle oppio" style="cursor:pointer;width:99%" onclick="document.getElementById('id07').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id07" class="w3-modal w3-animate-opacity">
+                    <div id="id07" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id07').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco del colle oppio</h1>
+                                <img class="modal-content" src="parco-colle-oppio.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    Il Parco del Colle Oppio, un parco di 11 ettari, del 1928-1936, si estende sull'area dell'omonimo colle, uno dei sette del primitivo Septimontium di Roma, ed alterna ampie zone di verde a resti monumentali di grande importanza e interesse, come il padiglione della Domus Aurea neroniana, le Terme di Tito e quelle di Traiano. <br><br>
+                                    <b>Bar:</b> punto ristoro nei pressi dell’ingresso di Via Mecenate <br><br>
+                                    <b>Orari di apertura:</b> sempre aperto <br><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>viale del Monte Oppio</li>
+                                        <li>via delle Terme di Traiano</li>
+                                        <li>via Mecenate, via Labicana</li>
+                                        <li>via Nicola Salvi</li>
+                                        <li>via delle Terme di Tito</li>
+                                    </ul><br><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>metro B (Colosseo)</li>
+                                        <li>bus 75, 810, 117, 85, 87</li>
+                                        <li>tram 3</li>
+                                    </ul>
+
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2289100675007!2d12.477728315910415!3d41.930932279217984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60deefcf6c01%3A0x5d1f3578f14db485!2sVilla+Glori!5e0!3m2!1sit!2sit!4v1498671640011" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -157,12 +337,24 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Parco del celio </div>
                     <img src="parco-celio.jpg" alt="parco del celio" style="cursor:pointer;width:99%" onclick="document.getElementById('id08').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id08" class="w3-modal w3-animate-opacity">
+                    <div id="id08" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id08').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco del celio</h1>
+                                <img class="modal-content" src="parco-celio.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    Il Parco di S.Gregorio al Celio, un parco del XX - XXI secolo e di 1,9 ettari, ricavato dall'antico orto del monastero di S.Gregorio, si estende sul versante occidentale del Celio, delimitato a est dalla Villa Celimontana, a sud dal Semenzaio Comunale, ad ovest dalla Passeggiata Archeologica (via Valle delle Camene) e a nord dal complesso conventuale dei SS. Andrea e Gregorio Magno al Monte Celio. <br> Vi si accede tramite una scalinata che, dalla salita di S.Gregorio costeggiata da ulivi, porta ad uno slargo, che costituisce la parte centrale del parco.<br> Pista di pattinaggio sulla destra del viale di accesso.<br><br>
+                                    <b>Orari di apertura:</b> dalle 7.00 al tramonto <br><br>
+                                    <b>Ingressi:</b> Salita di S. Gregorio 3 <br><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>metro B (fermata Circo Massimo)</li>
+                                        <li>tram 3</li>
+                                        <li>bus 628</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2497.644302310916!2d12.492785461590797!3d41.88820348794498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61c9d3238f55%3A0xc54879eac04c0795!2sParco+del+Celio%2C+00184+Roma!5e0!3m2!1sit!2sit!4v1498671714514" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -170,29 +362,30 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Vatican Gardens</div>
-                    <img src="Vatican-gardens.jpg" alt="vatican gardens" style="cursor:pointer;width:99%" onclick="document.getElementById('id09').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id09" class="w3-modal w3-animate-opacity">
-                        <div class="w3-modal-content">
-                            <div class="w3-container">
-                                <span onclick="document.getElementById('id09').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Gianicolo </div>
+                    <div class="w3-display-topleft w3-black w3-padding">Parco del Gianicolo </div>
                     <img src="gianicolo.jpg" alt="gianicolo" style="cursor:pointer;width:99%" onclick="document.getElementById('id010').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id010" class="w3-modal w3-animate-opacity">
+                    <div id="id010" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id010').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco del Gianicolo</h1>
+                                <img class="modal-content" src="gianicolo.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    La Passeggiata del Gianicolo, da cui si gode uno dei panorami più suggestivi del centro storico di Roma, è costituita da due grandi viali alberati da platani, costeggianti la Villa Aurelia, che si riuniscono nel piazzale Garibaldi per proseguire in un'unica strada che scende a tornanti verso la chiesa di Sant'Onofrio, realizzata a completamento della Passeggiata nel 1939. <br> L'area, teatro delle vicende eroiche dei combattenti per la Repubblica romana nel 1849, fu trasformata nel 1883 dalle nuove istituzioni italiane in passeggiata pubblica e dedicata alla memoria della Difesa di Roma. <br> Ai bordi dei viali sono collocati i busti dei garibaldini illustri che hanno combattuto per la difesa di Roma nel 1849.<br><br>
+                                    <b>Bar:</b> piazzale Giuseppe Garibaldi, piazza S.Onofrio altezza ospedale Bambino Gesù. <br><br>
+                                    <b>Orari di apertura:</b> sempre accessibile <br><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>via Giuseppe Garibaldi</li>
+                                        <li>salita di Sant'Onofrio</li>
+                                    </ul><br><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 34, 46, 46b, 64, 98, 881, 982, e 916 ( piazza della Rovere)</li>
+                                        <li>23 , 280 e 870 ( piazzale Garibaldi)</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.0223056079426!2d12.460019615909568!3d41.892377379221145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6041bfdc033b%3A0xb581fb390b8eb500!2sParco+del+Gianicolo!5e0!3m2!1sit!2sit!4v1498671851211" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -202,12 +395,33 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Giardino degli aranci </div>
                     <img src="giardino-aranci.jpg" alt="giardino degli aranci" style="cursor:pointer;width:99%" onclick="document.getElementById('id011').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id011" class="w3-modal w3-animate-opacity">
+                    <div id="id011" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id011').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Giardino degli aranci</h1>
+                                <img class="modal-content" src="giardino-aranci.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    Parco Savello, più noto come Giardino degli Aranci, è un piccolo terrazzo di 7.800 mq, sull' Aventino che affaccia sul Tevere. Da questo angolo, tra i più amati e frequentati della città, si gode una delle viste più belle di Roma. Il giardino ha un'impostazione estremamente simmetrica, con un viale mediano in asse con il belvedere, che è stato intitolato a Nino Manfredi dopo la morte dell'attore, ciociaro di origine ma romano di adozione. <br> Il viale si apre in due slarghi: in quello di destra era in origine collocata la fontana realizzata da Giacomo della Porta per piazza Montanara, e dal 1973 trasferita a piazza San Simeone ai Coronari, all'ingresso del parco stesso, addossata ad una nicchia del muro di cinta. <br> La piazza centrale prende il nome da un altro attore simbolo della romanità, Fiorenzo Fiorentini, che per molti anni condusse nel parco una sua stagione teatrale estiva. <br> Il parco si estende nell'area dell'antico fortilizio eretto dalla famiglia dei Savelli tra il 1285 e il 1287 presso la chiesa di Santa Sabina sull'Aventino, su un preesistente castello fatto costruire dai Crescenzi nel X secolo. <br>  L'attuale giardino fu realizzato nel 1932 da Raffaele de Vico, dopo che già agli inizi degli anni Venti del '900, con la nuova definizione urbanistica dell'Aventino, era stato previsto di destinare a parco pubblico l'area che i padri Domenicani della vicina chiesa tenevano a orto.  <br><br>
+                                    <b>Ingresso:</b>
+                                    <ul>
+                                        <li>piazza S. Pietro d'Illiria</li>
+                                        <li>via di S. Sabina</li>
+                                        <li>clivo di Rocca Savella degli Aranci</li>
+                                    </ul><br><br>
+                                    <b>Orari di apertura:</b>
+                                    <ul>
+                                        <li>da ottobre a febbraio 7.00 - 18.00</li>
+                                        <li>marzo e settembre 7.00 - 20.00</li>
+                                        <li>da aprile ad agosto 7.00 - 21.00</li>
+                                    </ul><br><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 81, 160, 628 (su via della Greca)</li>
+                                        <li>bus 23, 30,44,280, 130,170, 716, 781 (su lungotevere Aventino)</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.3569045719064!2d12.478328015909305!3d41.88518087922161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f60345d56dcd9%3A0x3b99833873948f9!2sGiardino+degli+Aranci!5e0!3m2!1sit!2sit!4v1498671901762" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -215,14 +429,19 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Rose gardens </div>
+                    <div class="w3-display-topleft w3-black w3-padding">Roseto di Roma Capitale</div>
                     <img src="rose-garden.jpg" alt="rose gardens" style="cursor:pointer;width:99%" onclick="document.getElementById('id012').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id012" class="w3-modal w3-animate-opacity">
+                    <div id="id012" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id012').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Roseto di Roma Capitale</h1>
+                                <img class="modal-content" src="rose-garden.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    Il Roseto di Roma Capitale è un giardino situato presso il Circo Massimo. In un'area di circa 10.000 m² in leggero declivio, divisa in due da via di Valle Murcia (aperta nel 1934), si trovano circa 1.100 diverse specie di rose.<br> Nel settore più grande sono ospitate le varietà che permettono di tracciare l'evoluzione della rosa dall'antichità ad oggi, suddivise tra "rose botaniche", "rose antiche" e "rose moderne". <br> Di particolare importanza la collezione di "rose botaniche" e "rose antiche", la cui diffusione iniziò a declinare dopo l'inizio delle ibridazioni con le rose cinesi, importate a partire dagli inizi del XIX secolo, che diedero l'inizio alle numerosissime varietà delle "rose moderne". <br> Nella seconda sezione, più piccola, vengono ospitate le nuove varietà di rose appena create, inviate qui da tutto il mondo, che dopo una permanenza di due anni partecipano al concorso internazionale "Premio Roma" per nuove varietà. Orari di apertura: Il parco è aperto al pubblico per l'intera giornata da maggio ad ottobre. <br><br>
+                                    <b>Collegamenti:</b> È raggiungibile dalla stazione Circo Massimo.
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.340874275043!2d12.481278815909324!3d41.88552567922147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6034cfd564c7%3A0x933801ef83ed3597!2sRoseto+di+Roma+Capitale!5e0!3m2!1sit!2sit!4v1498671988152" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -230,14 +449,26 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Pineto </div>
+                    <div class="w3-display-topleft w3-black w3-padding">Parco del Pineto Sacchetti</div>
                     <img src="pineto.jpg" alt="pineto" style="cursor:pointer;width:99%" onclick="document.getElementById('id013').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id013" class="w3-modal w3-animate-opacity">
+                    <div id="id013" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id013').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco del Pineto Sacchetti</h1>
+                                <img class="modal-content" src="pineto.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    Il parco del Pineto Sacchetti comprende una zona pianeggiante a pineta di 250 ettari, lungo la via che da esso prende nome, e una grande vallata, denominata Valle dell'Inferno.<br> Al suo interno sono attualmente visibili solo due casali dalle semplici architetture, destinati a divenire, dopo il restauro, centri di documentazione e didattica per la conoscenza del parco, mentre nulla resta dell'edificio realizzato da Pietro da Cortona per la famiglia Sacchetti nel XVII secolo.<br>   Parco pubblico a partire dagli anni Settanta del secolo scorso, gestito dall'Ente Regionale Roma Natura, il Parco del Pineto, costituisce oggi un'oasi naturalistica di grandissima importanza (vi sono state censite ben 600 specie vegetali e 71 specie di uccelli).<br><br>
+                                    <b>Orari di apertura:</b> sempre aperto <br><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>via della Pineta Sacchetti</li>
+                                        <li>via Vittorio Montiglio </li>
+                                    </ul><br>
+                                    <b>Collegamenti:</b> bus 49, 446, 994
+
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4198.442125225924!2d12.42697645630558!3d41.91979942102377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f5e2c3e20810d%3A0xf094f9bab2139e0!2sP.R.U.+Pineto!5e0!3m2!1sit!2sit!4v1498672037419" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -247,12 +478,27 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Parco della caffarella </div>
                     <img src="Parco-Caffarella.jpg" alt="parco della caffarella" style="cursor:pointer;width:99%" onclick="document.getElementById('id014').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id014" class="w3-modal w3-animate-opacity">
+                    <div id="id014" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id014').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco della Caffarella</h1>
+                                <img class="modal-content" src="Parco-Caffarella.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    La Valle della Caffarella è una valle alluvionale creata dal fiume Almone, ancor oggi ricca d'acqua, che affiora da falde e sorgenti. Si estende dalla via Appia Antica alla via Latina e prende il nome dalla famiglia Caffarelli, proprietaria della grande tenuta che si estendeva sull'intera valle. Oggi il toponimo viene anche utilizzato per indicare un'area urbana situata nella valle stessa. <br>Nel parco si trovano visite guidate, nolo bici, ciclofficina, orti didattici , wifi.<br><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>Via della Caffarella</li>
+                                        <li>Via Latina</li>
+                                        <li>Largo Tacchi Venturi</li>
+                                    </ul><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 118, 87</li>
+                                        <li>Metro A Colli Albani</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14134.622900548848!2d12.513771308404662!3d41.86191266527387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13258a0890d7a809%3A0x45d039dfdf275e11!2sParco+della+Caffarella!5e0!3m2!1sit!2sit!4v1498672072394" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -260,14 +506,25 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Parco delle tombe di via latina </div>
+                    <div class="w3-display-topleft w3-black w3-padding">Parco archeologico delle tombe di via latina </div>
                     <img src="Parco-Tombe-Latina.jpg" alt="parco delle tombe di via latina" style="cursor:pointer;width:99%" onclick="document.getElementById('id015').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id015" class="w3-modal w3-animate-opacity">
+                    <div id="id015" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id015').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco archeologico delle tombe di via latina</h1>
+                                <img class="modal-content" src="Parco-Tombe-Latina.jpg" style="width:80%" />
+                                <div class="align-left">
+
+                                    <b>Orari di apertura:</b>  ingresso libero dal martedì alla domenica dalle 9.00 alle 16.30. Chiuso il lunedì.<br><br>
+                                    <b>Ingressi:</b>  Via dell’Arco di Travertino <br><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>765</li>
+                                        <li>Metro A Arco di Travertino</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.425540445818!2d12.533649115908837!3d41.862190079223566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61fe7fbe36eb%3A0x577e60e84c612a8d!2sParco+archeologico+delle+Tombe+di+via+Latina!5e0!3m2!1sit!2sit!4v1498672124193" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -275,14 +532,29 @@
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Parco del torre del fiscale </div>
+                    <div class="w3-display-topleft w3-black w3-padding">Parco di torre fiscale </div>
                     <img src="Parco-torre-fiscale.jpg" alt="parco del torre fiscale" style="cursor:pointer;width:99%" onclick="document.getElementById('id016').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id016" class="w3-modal w3-animate-opacity">
+                    <div id="id016" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id016').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco di torre fiscale</h1>
+                                <img class="modal-content" src="Parco-torre-fiscale.jpg" style="width:80%" />
+                                <div class="align-left">
+
+                                    <b>Punti di interesse all'interno:</b> visite guidate, informazioni, laboratori per bambini, area giochi, nolo bici Ciclismo. <br><br>
+                                    <b> Ingressi:</b>
+                                    <ul>
+                                        <li>Via dell’Acquedotto Felice 120 </li>
+                                        <li>Via di Torre Branca </li>
+                                    </ul><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 650, 675, 663, 664, 765 </li>
+                                        <li>Metro A Porta Furba </li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5942.980439827992!2d12.533383095053399!3d41.860798224588756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdac6c402d9ae88b7!2sParco+di+Torre+Fiscale!5e0!3m2!1sit!2sit!4v1498672200393" width="100%" height="480"></iframe>
                             </div>
                         </div>
                     </div>
@@ -292,12 +564,37 @@
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Parco degli acquedotti </div>
                     <img src="Parco-Acquedotti.jpg" alt="parco degli acquedotti" style="cursor:pointer;width:99%" onclick="document.getElementById('id017').style.display='block'" class="w3-hover-opacity" />
-                    <div id="id017" class="w3-modal w3-animate-opacity">
+                    <div id="id017" class="w3-modal w3-animate-opacity" onclick="this.style.display='none'">
                         <div class="w3-modal-content">
-                            <div class="w3-container">
+                            <div class="w3-container w3-center">
                                 <span onclick="document.getElementById('id017').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-                                <p>Villa</p>
-                                <p>Borghese</p>
+                                <h1 class="w3-black w3-border-bottom w3-border-light-grey w3-padding-16">Parco degli acquedotti</h1>
+                                <img class="modal-content" src="Parco-Acquedotti.jpg" style="width:80%" />
+                                <div class="align-left">
+                                    <b>Punti di interesse all'interno: </b>
+                                    <ul>
+                                        <li>Acquedotto Felice</li>
+                                        <li>Acquedotto Claudio </li>
+                                        <li>Acquedotto Marcio</li>
+                                        <li>Casale Roma Vecchia</li>
+                                        <li>Villa delle Vignacce</li>
+                                        <li>Via Latina Antica </li>
+                                    </ul><br>
+                                    <b>Bar:</b> Ristorante Pizzeria Fermentum <br><br>
+                                    <b>Ingressi:</b>
+                                    <ul>
+                                        <li>Via Lemonia</li>
+                                        <li>Viale Appio Claudio</li>
+                                        <li>Via Viviani  </li>
+                                    </ul><br><br>
+                                    <b>Collegamenti:</b>
+                                    <ul>
+                                        <li>bus 559, 590, 650, 657, 654 </li>
+                                        <li>Metro A Giulio Agricola, Subaugusta, Lucio Sestio</li>
+                                    </ul>
+                                </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.97525239061!2d12.555291715908547!3d41.850359479224316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132589dc7d914919%3A0x5f4eeb7a244a15b6!2sParco+degli+Acquedotti!5e0!3m2!1sit!2sit!4v1498672275721" width="100%" height="480">
+                                    </iframe>
                             </div>
                         </div>
                     </div>
@@ -317,21 +614,8 @@
     <footer class="w3-center w3-black w3-padding-16">
         <p>Made by <a href="Adolfini" title="Adolfini" target="_blank" class="w3-hover-text-green">Adolfini</a></p>
     </footer>
-    <!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
-    <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
 
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+
 </body>
 
 </html>
